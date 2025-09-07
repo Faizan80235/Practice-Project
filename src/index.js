@@ -3,6 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'tabulator-tables/dist/css/tabulator.min.css';
+import "tabulator-tables/dist/css/tabulator.min.css"; 
+// or try different themes:
+import "tabulator-tables/dist/css/tabulator_midnight.min.css";
+import "tabulator-tables/dist/css/tabulator_simple.min.css";
+import "tabulator-tables/dist/css/tabulator_modern.min.css";
+import "tabulator-tables/dist/css/tabulator_site.min.css";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'ag-grid-community/styles/ag-grid.css';
 import 'ag-grid-community/styles/ag-theme-alpine.css';
